@@ -1,0 +1,17 @@
+real x :=3.5;
+int r:= 1;
+x:= 9.5;
+{read x;}
+int z;
+z := 5;
+int s;
+s := r + z;
+real tmp;
+{x := z;}
+tmp := 10.2 / 3.5;
+int w := 1 + z + 3;
+write x;
+write s;
+write tmp 
+
+

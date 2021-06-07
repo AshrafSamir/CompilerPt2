@@ -1,0 +1,53 @@
+{Sample Program
+ reads 3 integers and tests operators
+ reads 3 real numbers and tests operators
+ reads 3 booleans and writes which is true and if they are all equal
+ reads n and loops and prints all number from 0 to n
+}
+real x :=3.5;
+bool t := true;
+int r:= 1;
+x:= 9.5;
+{read x;}
+int z;
+z := 5;
+int s;
+s := r + z;
+{int s := r + z;}
+real tmp;
+{x := z;}
+tmp := 10.2 / 3.5;
+int w := 1 + z + 3;
+write x;
+write s;
+write t;
+write tmp;
+real k := 3.5;
+int ia; int ib; int ic;
+read ia; read ib; read ic;
+write ia+ib+ic; write ia-ib-ic; write ia*ib*ic; write ia/ib/ic;
+real ra; real rb; real rc;
+read ra; read rb; read rc;
+write ra+rb+rc; write ra-rb-rc; write ra*rb*rc; write ra/rb/rc;
+bool ba; bool bb; bool bc;
+read ba; read bb; read bc;
+if ba then write 1 end;
+if bb then write 2 end;
+if bc then write 3 end;
+if ba = bb then
+    if ba = bc then
+        write 123
+    end
+end;
+int n; int i; bool equal:= false;
+i := 0;
+read n;
+repeat
+    write i;
+     equal:= true;
+     write equal
+until equal
+
+   
+    
+
